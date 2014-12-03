@@ -25,4 +25,4 @@ def _last_man_receive_at_last?(m, w, s)
   _last_man_receive_at_last?(m, w, s)
 end
 
-p (6..Float::INFINITY).lazy.select{|n| last_man_receive_a_last?(n)}.first(5).join(", ")
+p (6..Float::INFINITY).lazy.select{|n| last_man_receive_at_last?(n)}.first(5).join(", ")
